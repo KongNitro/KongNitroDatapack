@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": "Chop Jungle Tree",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/aborist_1_chop",
+  "criteria": {
+    "got_jungle_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      }
+    },
+    "got_jungle_spripped": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_jungle_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_jungle_log",
+      "got_jungle_spripped"
+    ]
+  ]
+}

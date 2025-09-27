@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_leaves"
+    },
+    "title": "Shear a Dark Oak Leaf",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/aborist_1_shear",
+  "criteria": {
+    "got_darkoak_leaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_leaves"
+          }
+        ]
+      }
+    }
+  }
+}

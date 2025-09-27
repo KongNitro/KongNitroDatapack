@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "Plant All The Trees",
+    "description": "Plant each type of tree",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/aborist",
+  "criteria": {
+    "planted_acacia": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    },
+    "planted_spruce": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:spruce_sapling"
+          }
+        ]
+      }
+    },
+    "planted_cherry": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cherry_sapling"
+          }
+        ]
+      }
+    },
+    "planted_jungle": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+    "planted_darkoak": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    },
+    "planted_paleoak": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:pale_oak_sapling"
+          }
+        ]
+      }
+    },
+    "planted_oak": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+    "planted_birch": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    },
+    "planted_mangrove": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:mangrove_propagule"
+          }
+        ]
+      }
+    }    
+  },
+  "requirements": [
+    [
+      "planted_acacia"
+    ],
+    [
+      "planted_spruce"
+    ],
+    [
+      "planted_birch"
+    ],
+    [
+      "planted_oak"
+    ],
+    [
+      "planted_paleoak"
+    ],
+    [
+      "planted_darkoak"
+    ],
+    [
+      "planted_jungle"
+    ],
+    [
+      "planted_cherry"
+    ],
+    [
+      "planted_mangrove"
+    ]
+  ]
+}

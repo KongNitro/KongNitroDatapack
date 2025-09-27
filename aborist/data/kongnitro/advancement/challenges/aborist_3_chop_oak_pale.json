@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": "Chop a Pale Oak Tree",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/aborist_1_chop",
+  "criteria": {
+    "got_paleoak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_log"
+          }
+        ]
+      }
+    },
+    "got_paleoak_spripped": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_pale_oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_paleoak_log",
+      "got_paleoak_spripped"
+    ]
+  ]
+}
