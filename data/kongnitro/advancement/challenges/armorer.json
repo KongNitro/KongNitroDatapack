@@ -1,26 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_boots"
+      "id": "minecraft:diamond_chestplate"
     },
-    "title": "Armorer Challenge",
-    "description": "Coming soon.....",
+    "title": "Unlocked: Armorer Challenge",
+    "description": "Complete the Armorer Challenge",
     "frame": "goal",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
   "parent": "kongnitro:challenges/challenges_root",
   "criteria": {
-    "getit": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:diamond_boots"
-          }
-        ]
-      }
+    "requirement": {
+      "trigger": "minecraft:location"
     }
   }
 }

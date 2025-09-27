@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": "Craft Leather Armor",
+    "description": "Craft all the Leather armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/armorer",
+  "criteria": {
+    "leather_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_boots"
+      }
+    },
+    "leather_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_chestplate"
+      }
+    },
+    "leather_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_helmet"
+      }
+    },
+    "leather_horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_horse_armor"
+      }
+    },
+    "leather_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather_boots"
+    ],
+    [
+      "leather_chestplate"
+    ],
+    [
+      "leather_helmet"
+    ],
+    [
+      "leather_horse"
+    ],
+    [
+      "leather_leggings"
+    ]
+  ]
+}

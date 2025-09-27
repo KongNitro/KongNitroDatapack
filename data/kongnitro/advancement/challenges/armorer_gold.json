@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": "Craft Golden Armor",
+    "description": "Craft all the golden armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/armorer",
+  "criteria": {
+    "golden_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_boots"
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_chestplate"
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_helmet"
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_boots"
+    ],
+    [
+      "golden_chestplate"
+    ],
+    [
+      "golden_helmet"
+    ],
+    [
+      "golden_leggings"
+    ]
+  ]
+}

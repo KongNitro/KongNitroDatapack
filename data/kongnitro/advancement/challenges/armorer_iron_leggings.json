@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
+    },
+    "title": "Craft Iron Leggings",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/armorer_iron",
+  "criteria": {
+    "iron_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_leggings"
+      }
+    }
+  }
+}

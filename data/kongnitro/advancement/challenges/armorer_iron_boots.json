@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": "Craft Iron Boots",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/armorer_iron",
+  "criteria": {
+    "iron_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_boots"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": "Craft Wolf Armor",
+    "description": "Craft armor for a wolf",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kongnitro:challenges/armorer",
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wolf_armor"
+      }
+    }
+  }
+}
